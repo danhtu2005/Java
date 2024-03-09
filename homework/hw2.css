@@ -1,0 +1,18 @@
+header {
+  background-color: rgb(45, 38, 30);
+  border: 500px;
+  margin-right: auto;
+  font-size: 50px;
+  left: 0px;
+  color: rgb(25, 170, 133);
+}
+
+h4 {
+  color: greenyellow;
+}
+h2 {
+  list-style: lower-alpha;
+  opacity: initial;
+  background-color: chartreuse;
+  color: rgba(131, 45, 45, 0.575);
+}
