@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-feature-settings: inherit;
+}
+. {
+  background-color: #ffff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 60px;
+  height: min-content;
+  justify-content: center;
+  overflow: hidden;
+  padding: 100px 40px;
+  position: relative;
+  width: 100%;
+}
+.product-card {
+  width: 320px;
+  box-shadow: 0px 0px 7px 0px;
+  border-radius: 8px;
+  border-radius: 15px;
+}
+img {
+  width: 100%;
+  height: 240px;
+  border-radius: 15px 15px 0px 0px;
+  object-position: center;
+  object-fit: cover;
+  image-rendering: auto;
+}
+.note {
+  width: 260px;
+  margin-left: 20px;
+  font-family: arial;
+
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  grid-area: auto;
+}
+.product-title {
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  font-weight: 600;
+  color: rgb(0, 17, 34);
+  font-size: 20px;
+  width: 260px;
+  margin-bottom: 2px;
+  letter-spacing: -0, 5px;
+  line-height: 1.4em;
+  text-align: left;
+}
+.product-content {
+  margin-top: 2px;
+  color: rgb(135, 132, 132);
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  line-height: 1.6em;
+  text-align: left;
+  font-weight: 500;
+}
+.click button {
+  background-color: #222;
+  color: rgb(255, 255, 255);
+  width: 102px;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  box-shadow: #000000 0px 0.706592px 0.706592px -0.625px;
+  display: flex;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  flex: none;
+  flex-direction: row;
+  overflow: visible;
+  padding: 15px;
+  position: relative;
+  width: min-content;
+  height: 40px;
+  flex-wrap: nowrap;
+}
+
+.click p {
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  font-weight: bolder;
+  grid-area: auto;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
